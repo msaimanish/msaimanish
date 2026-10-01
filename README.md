@@ -1,4 +1,4 @@
-# Hi there 👋, I'm Manish
+# Hi there, I'm Manish
 
 ### AI/ML Engineer • MLOps • Open Source
 
@@ -11,7 +11,7 @@ I enjoy working at the intersection of **Machine Learning, Software Engineering,
 * 🤖 Machine Learning & Deep Learning with **PyTorch, TensorFlow, and OpenCV**
 * ⚙️ **MLOps & ML Infrastructure** with Docker, Kubernetes, MLflow and FastAPI
 * 🧠 Exploring **LLMs, AI agents, computer vision and generative AI**
-* 🌐 Building full-stack applications with **Python & JavaScript**
+* 🌐 Building full-stack applications with **Python & TypeScript**
 * 🌱 Contributing to **open-source ML and AI projects**
 * 📚 Preparing for **GATE** while strengthening my CS fundamentals
 
@@ -39,9 +39,9 @@ I enjoy working at the intersection of **Machine Learning, Software Engineering,
 
 AI-powered attendance system using **PyTorch, OpenCV, Flask and SQLite**, with real-time face verification, automated attendance logging and a web dashboard.
 
-**Tech-Fest Website**
+**Tech-Fest Website for HAVANA**
 
-Production website for a university technology festival featuring an interactive **Three.js 3D experience**, responsive UI and optimized rendering.
+Production website for GITAM University's technology festival called HAVANA, featuring an interactive **Three.js 3D experience**, responsive UI and optimized rendering.
 
 ### 🏆 Achievements
 
