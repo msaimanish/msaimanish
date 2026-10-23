@@ -107,6 +107,14 @@ A facial-recognition-based classroom attendance system that identifies registere
 - Qualified through the institutional internal hackathon among **154 participating teams**.
 - Developed SIFSentinel for Oil India Limited's problem statement 26165.
 
+**EduHacks 2022 — First Overall Winner**  
+*Major League Hacking (MLH) · December 2022*
+
+- Built **Slidesmart**, an AI-powered educational tool that converts long YouTube videos and text documents into concise, visually engaging presentation slides.
+- Integrated AssemblyAI and Azure Text Analytics APIs for summarization and key-phrase extraction.
+- Contributed to optimizing a Stable Diffusion-based image-generation pipeline and exploring WebAssembly (Wasm) for faster inference.
+- Developed the web application using Django, Python, HTML, and CSS.
+
 **NewHacks 2022 — Winner**
 
 *Synopsys Smart Everything Sponsor Prize · University of Toronto*
