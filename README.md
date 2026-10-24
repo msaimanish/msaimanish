@@ -1,154 +1,140 @@
-# Hi there, I'm Manish
+# Hi there, I'm Manish 
 
 ### AI/ML Engineer · Agentic AI · MLOps
 
-I'm a Computer Science undergraduate at **GITAM University, Hyderabad**, interested in building intelligent systems that combine machine learning, software engineering, and infrastructure.
+I'm a Computer Science undergraduate at **GITAM University, Hyderabad**, interested in building intelligent systems that bring together machine learning, software engineering, and infrastructure.
 
-My work spans AI-powered safety intelligence, agentic incident management, natural language processing, and computer vision. I enjoy building end-to-end applications, from ML pipelines and backend services to interactive dashboards and containerized deployments.
+I work across AI-powered safety intelligence, agentic systems, NLP, and computer vision. I enjoy developing end-to-end applications—from ML pipelines and backend services to dashboards, databases, and containerized deployments.
 
-- Developing AI-powered applications using **PyTorch, TensorFlow, and scikit-learn**
-- Building agentic systems with **LangGraph, MCP, and LLM APIs**
-- Exploring NLP, semantic search, retrieval-augmented generation, and computer vision
-- Developing backend services with **FastAPI, Flask, and PostgreSQL**
+- Building AI applications with **PyTorch, TensorFlow, and scikit-learn**
+- Developing agentic workflows with **LangGraph, MCP, and LLM APIs**
+- Exploring **NLP, semantic search, RAG, and computer vision**
+- Building backend services with **FastAPI, Flask, and PostgreSQL**
 - Working with **Docker, Kubernetes, MLflow, and cloud platforms**
 - Strengthening my foundations in algorithms, operating systems, databases, and mathematics
 
+**Portfolio:** [msaimanish.tech](https://msaimanish.tech)  
+**GitHub:** [@msaimanish](https://github.com/msaimanish) · **LinkedIn:** [msaimanish](https://linkedin.com/in/msaimanish) · **Email:** [msaimanishreddy123@gmail.com](mailto:msaimanishreddy123@gmail.com)
+
 ---
 
-### Featured Projects
+## Featured Projects
 
-#### SIFSentinel
+### 1. NexCord
+**Agentic incident management and resolution for live events**
 
+An agentic incident commander designed to identify scheduling and resource conflicts, analyze incidents, and propose actionable response plans.
+
+- Designed an **observe → analyze → approve → execute → verify → recover** workflow.
+- Added human approval before consequential actions, with verification after execution.
+- Integrated **LangGraph** agents with a self-hosted **MCP** server for tool execution.
+- Used **PostgreSQL and pgvector** for persistent application state and semantic retrieval, with an emphasis on auditability and recovery from failed actions.
+
+**Tech:** Python · LangGraph · MCP/FastMCP · PostgreSQL · pgvector  
+**Repository:** [msaimanish/NexCord](https://github.com/msaimanish/NexCord)
+
+### 2. SIFSentinel
 **AI-powered safety intelligence platform**
 
-An AI/NLP platform that identifies potential Serious Injury and Fatality (SIF) precursors in incident reports, near-misses, and unsafe-condition reports.
+An AI/NLP platform that identifies potential **Serious Injury and Fatality (SIF) precursors** in incident reports, near-misses, and unsafe-condition reports.
 
-- Implemented SIF classification, precursor extraction, IOGP Life-Saving Rule mapping, and risk-based prioritization.
-- Integrated sentence embeddings and PostgreSQL with pgvector for semantic retrieval of similar historical reports.
+- Implemented SIF classification, precursor extraction, **IOGP Life-Saving Rule** mapping, and risk-based prioritization.
+- Integrated sentence embeddings with **PostgreSQL/pgvector** to retrieve semantically similar historical reports.
 - Developed an interactive safety analytics dashboard to help teams identify reports requiring attention.
-- Containerized the Next.js frontend, FastAPI backend, PostgreSQL database, and asynchronous ML worker using Docker Compose.
+- Containerized the Next.js frontend, FastAPI backend, PostgreSQL database, and asynchronous ML worker with **Docker Compose**.
 
-**Tech stack:** Python, scikit-learn, PyTorch, FastAPI, PostgreSQL, pgvector, Next.js, Docker
+**Tech:** Python · scikit-learn · PyTorch · FastAPI · PostgreSQL · pgvector · Next.js · Docker  
+**Repository:** [msaimanish/sifsentinel-final](https://github.com/msaimanish/sifsentinel-final)
 
-#### NexCord
-
-**Agentic incident management and automated resolution**
-
-An agentic system designed to detect event scheduling and resource conflicts and propose actionable resolution plans.
-
-- Designed an **observe–analyze–approve–execute–verify–recover** workflow.
-- Incorporated human approval before consequential actions.
-- Building a self-hosted MCP server for tool execution and PostgreSQL-backed state management.
-- Emphasizing auditability, execution verification, and recovery from failed actions.
-
-**Tech stack:** Python, LangGraph, MCP, PostgreSQL, pgvector
-
-#### ClassSense AI
-
+### 3. ClassSense AI
 **Real-time classroom attendance and analytics**
 
-A facial-recognition-based classroom attendance system that identifies registered students, automates attendance logging, and provides natural-language attendance analytics.
+A facial-recognition-based system that identifies registered students, automates attendance logging, and supports natural-language attendance analytics.
 
 - Implemented multi-face detection and deep-learning face embeddings for student recognition.
-- Integrated MediaPipe, TensorFlow/Keras, and Google Cloud Firestore using the Firebase Admin SDK.
-- Developed a Flask dashboard for student registration, confidence-based attendance marking, and searchable attendance records.
-- Integrated Gemini-powered natural-language analytics.
+- Integrated **MediaPipe**, **TensorFlow/Keras**, and **Google Cloud Firestore** through the Firebase Admin SDK.
+- Built a Flask dashboard for student registration, confidence-based attendance marking, and searchable records.
+- Integrated **Gemini** for natural-language attendance analytics.
 
-**Tech stack:** Python, MediaPipe, TensorFlow/Keras, Flask, Firestore, Gemini
+**Tech:** Python · MediaPipe · TensorFlow/Keras · Flask · Firestore · Gemini  
+**Repository:** [msaimanish/ClassSense_AI](https://github.com/msaimanish/ClassSense_AI)
 
 ---
 
-### Experience & Leadership
+## Hackathon Projects
 
-**G-ELECTRA Tech Club — GITAM University**
+### Slidesmart — EduHacks
+An AI-powered educational tool that turns long YouTube videos and text documents into concise, visually engaging presentation slides.
 
-*Web Development Lead | August 2025 – August 2026*
+- Used **AssemblyAI** and **Azure Text Analytics** for summarization and key-phrase extraction.
+- Worked on a **Stable Diffusion** image-generation pipeline and explored **WebAssembly (Wasm)** for faster inference.
+- Developed the web application with **Django, Python, HTML, and CSS**.
 
-- Led the development of two websites supporting technology-fest promotion, event information, and participant engagement.
-- Collaborated with a team to integrate interactive 3D features and deliver responsive web experiences.
+**Tech:** Python · Django · AssemblyAI · Azure Text Analytics · Stable Diffusion · Wasm
+
+### tPay — NewHacks
+A facial-recognition payment authentication prototype designed for campus payments.
+
+- Built a transfer-learning pipeline with **MobileNet, TensorFlow, and Keras**, trained on **3,000+ facial images** and negative samples.
+- Integrated recognition into a **Django** application with an SQL database for registration, identity verification, and payment authentication.
+
+**Tech:** Python · TensorFlow/Keras · MobileNet · Django · SQL
+
+### Weed Detech — Harvest Hacks
+A computer-vision application that identifies and localizes weeds in crop images to support targeted pesticide use.
+
+- Developed the **Streamlit** frontend and helped integrate it with the team’s **ConvNeXt** object-detection pipeline.
+- Contributed to integrating a transfer-learned model trained on **Google Cloud TPUs**, returning bounding boxes for detected weeds.
+
+**Tech:** Python · Streamlit · Computer Vision · ConvNeXt · Google Cloud TPUs
+
+---
+
+## Awards & Hackathons
+
+| Date | Event | Result | Project |
+|---|---|---|---|
+| **Sep 2026** | Smart India Hackathon | **Internal Round Qualifier** — qualified among 154 teams | SIFSentinel · Oil India Limited problem statement 26165 |
+| **Dec 2022** | EduHacks · Major League Hacking (MLH) | **First Overall** | Slidesmart |
+| **Nov 2022** | NewHacks · Major League Hacking (MLH) | **Synopsys Smart Everything Sponsor Prize** | tPay |
+| **Nov 2022** | Harvest Hacks · Major League Hacking (MLH) | **2nd Place Overall** | Weed Detech |
+
+---
+
+## Experience & Leadership
+
+**G-ELECTRA Tech Club — GITAM University**  
+*Web Development Lead · August 2025 – August 2026*
+
+- Led development of two websites for tech-fest promotion, event information, and participant engagement.
+- Collaborated with a team to integrate interactive 3D features and build responsive web experiences.
 - Improved rendering performance, UI responsiveness, and cross-device compatibility.
 
 ---
 
-### Technical Skills
+## Technical Skills
 
-**Languages & Web Development**
+**Languages & Web:** `Python` `C++` `JavaScript` `SQL` `HTML` `CSS` `Next.js` `Three.js` `Streamlit`
 
-`Python` `C++` `JavaScript` `SQL` `HTML` `CSS` `Next.js` `Three.js` `Streamlit`
+**AI / ML / NLP:** `PyTorch` `TensorFlow/Keras` `scikit-learn` `XGBoost` `OpenCV` `MediaPipe` `NumPy` `Pandas` `Hugging Face` `Sentence Embeddings` `RAG` `Computer Vision` `NLP`
 
-**AI, Machine Learning & NLP**
+**Agentic AI & LLMs:** `LangGraph` `MCP / FastMCP` `Amazon Bedrock / Nova` `Gemini API`
 
-`PyTorch` `TensorFlow/Keras` `Scikit-learn` `XGBoost` `OpenCV` `MediaPipe` `NumPy` `Pandas` `Hugging Face` `Sentence Embeddings` `RAG` `Computer Vision` `NLP`
+**Backend & Databases:** `FastAPI` `Flask` `Django` `PostgreSQL` `pgvector` `Firestore`
 
-**Agentic AI & LLMs**
+**MLOps, Infrastructure & Cloud:** `Git` `Docker` `Docker Compose` `Kubernetes` `Linux` `MLflow` `Google Cloud Platform` `AWS`
 
-`LangGraph` `MCP / FastMCP` `Amazon Bedrock / Nova` `Gemini API`
-
-**Backend & Databases**
-
-`FastAPI` `Flask` `Django` `PostgreSQL` `pgvector` `Firestore`
-
-**MLOps, Infrastructure & Cloud**
-
-`Git` `Docker` `Docker Compose` `Kubernetes` `Linux` `MLflow` `Google Cloud Platform` `AWS`
-
-**Computer Science Fundamentals**
-
-`Data Structures & Algorithms` `Object-Oriented Programming` `Operating Systems` `DBMS`
+**Computer Science:** `Data Structures & Algorithms` `Object-Oriented Programming` `Operating Systems` `DBMS`
 
 ---
 
-### Awards & Achievements
+## Education
 
-**Smart India Hackathon — Internal Round Qualifier**
-
-*September 2026*
-
-- Qualified through the institutional internal hackathon among **154 participating teams**.
-- Developed SIFSentinel for Oil India Limited's problem statement 26165.
-
-**EduHacks 2022 — First Overall Winner**  
-*Major League Hacking (MLH) · December 2022*
-
-- Built **Slidesmart**, an AI-powered educational tool that converts long YouTube videos and text documents into concise, visually engaging presentation slides.
-- Integrated AssemblyAI and Azure Text Analytics APIs for summarization and key-phrase extraction.
-- Contributed to optimizing a Stable Diffusion-based image-generation pipeline and exploring WebAssembly (Wasm) for faster inference.
-- Developed the web application using Django, Python, HTML, and CSS.
-
-**NewHacks 2022 — Winner**
-
-*Synopsys Smart Everything Sponsor Prize · University of Toronto*
-
-- Built **tPay**, a facial-recognition-based payment authentication system for campus payments.
-- Developed a transfer-learning pipeline using MobileNet, TensorFlow, and Keras, trained on more than **3,000 facial images** and negative samples.
-- Integrated the recognition model into a Django application with an SQL database for student registration, identity verification, and payment authentication.
-
-**Harvest Hacks — 2nd Place Overall**
-
-- Built **Weed Detech**, a computer vision application that identifies and localizes weeds in crop images.
-- Contributed to the frontend and end-to-end integration with a ConvNeXt-based object detection pipeline.
-- Collaborated on integrating a transfer-learned model trained on Google Cloud TPUs to classify plants and return weed bounding boxes.
-
----
-
-### Education
-
-**GITAM University — Hyderabad, India**
-
-Bachelor of Technology in Computer Science  
-2024 – Expected April 2028
-
+**GITAM University — Hyderabad, India**  
+Bachelor of Technology in Computer Science · **2024 – Expected April 2028**  
 CGPA: **9.67/10.0**
 
 Relevant coursework: Data Structures, Design and Analysis of Algorithms, Operating Systems, Database Management Systems, Object-Oriented Programming, Probability and Statistics, Linear Algebra, Calculus and Differential Equations.
-
----
-
-### Connect with Me
-
-- GitHub: [@msaimanish](https://github.com/msaimanish)
-- LinkedIn: [msaimanish](https://linkedin.com/in/msaimanish)
-- Email: [msaimanishreddy123@gmail.com](mailto:msaimanishreddy123@gmail.com)
 
 ---
 
