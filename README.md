@@ -69,8 +69,7 @@ An interactive Twitch raid experience that transforms channel handoffs into coll
 - Integrated Twitch channel and raid events to coordinate interactions across participating communities.
 - Focused on reducing newcomer friction, encouraging participation, and creating memorable interactions between streamers and their audiences.
 
-**Tech:** Python · Twitch API / EventSub · LLM APIs · Agentic AI · [Add actual frontend/backend technologies]
-
+**Tech:** Python · Twitch API / EventSub · LLM APIs · Agentic AI
 **Repository:** [msaimanish/Raid-Relay](https://github.com/msaimanish/Raid-Relay)
 
 ---
