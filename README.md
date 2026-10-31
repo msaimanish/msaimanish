@@ -59,6 +59,20 @@ A facial-recognition-based system that identifies registered students, automates
 **Tech:** Python · MediaPipe · TensorFlow/Keras · Flask · Firestore · Gemini  
 **Repository:** [msaimanish/ClassSense_AI](https://github.com/msaimanish/ClassSense_AI)
 
+### Raid Relay
+**AI-powered interactive raid experiences for Twitch communities**
+
+An interactive Twitch raid experience that transforms channel handoffs into collaborative, AI-driven quests. Instead of viewers arriving in an unfamiliar stream without context, Raid Relay gives incoming raiders an immediate shared activity, helping streamers turn the first 60 seconds of a raid into an engaging community experience.
+
+- Designed a raid-driven quest system that adapts interactions based on raid size, turning incoming viewers into a collaborative party.
+- Developed an AI-powered quest generation workflow that creates contextual challenges for the receiving streamer and incoming community.
+- Integrated Twitch channel and raid events to coordinate interactions across participating communities.
+- Focused on reducing newcomer friction, encouraging participation, and creating memorable interactions between streamers and their audiences.
+
+**Tech:** Python · Twitch API / EventSub · LLM APIs · Agentic AI · [Add actual frontend/backend technologies]
+
+**Repository:** [msaimanish/Raid-Relay](https://github.com/msaimanish/Raid-Relay)
+
 ---
 
 ## Hackathon Projects
