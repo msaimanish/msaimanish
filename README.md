@@ -59,7 +59,7 @@ A facial-recognition-based system that identifies registered students, automates
 **Tech:** Python · MediaPipe · TensorFlow/Keras · Flask · Firestore · Gemini  
 **Repository:** [msaimanish/ClassSense_AI](https://github.com/msaimanish/ClassSense_AI)
 
-### Raid Relay
+### 4. Raid Relay
 **AI-powered interactive raid experiences for Twitch communities**
 
 An interactive Twitch raid experience that transforms channel handoffs into collaborative, AI-driven quests. Instead of viewers arriving in an unfamiliar stream without context, Raid Relay gives incoming raiders an immediate shared activity, helping streamers turn the first 60 seconds of a raid into an engaging community experience.
