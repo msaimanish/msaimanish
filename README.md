@@ -181,17 +181,18 @@ A computer-vision application that identifies and localizes weeds in crop images
 ## GitHub Activity
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=msaimanish&show_icons=true&include_all_commits=true&theme=tokyonight&hide_border=true&rank_icon=github" alt="Manish's GitHub statistics" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=msaimanish&layout=compact&langs_count=8&theme=tokyonight&hide_border=true" alt="Most used programming languages" />
+  <img height="165" src="https://github-stats-extended.vercel.app/api?username=msaimanish&show_icons=true&include_all_commits=true&theme=tokyonight&hide_border=true&rank_icon=github" alt="Manish's GitHub statistics" />
+  <img height="165" src="https://github-stats-extended.vercel.app/api/top-langs/?username=msaimanish&layout=compact&langs_count=8&theme=tokyonight&hide_border=true" alt="Most used programming languages" />
 </p>
 
 <p align="center">
   <img src="https://streak-stats.demolab.com?user=msaimanish&theme=tokyonight&hide_border=true" alt="GitHub contribution streak" />
 </p>
 
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=msaimanish&bg_color=0d1117&color=79c0ff&line=1f6feb&point=22d3ee&area=true&hide_border=true" width="100%" alt="GitHub contribution activity graph" />
-</p>
+### Contribution Activity
+
+<!-- BEGIN ACTIVITY-GRAPH -->
+<!-- END ACTIVITY-GRAPH -->
 
 ### Contribution Snake
 
