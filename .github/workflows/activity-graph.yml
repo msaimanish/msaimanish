@@ -1,0 +1,23 @@
+name: Activity Graph
+
+on:
+  schedule:
+    - cron: "23 0 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  activity-graph:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Check out profile repository
+        uses: actions/checkout@v4
+
+      - name: Generate animated activity graph
+        uses: alexcerezo/activity-graph@v1
