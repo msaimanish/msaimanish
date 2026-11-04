@@ -1,47 +1,56 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="280" viewBox="0 0 1200 280" role="img" aria-labelledby="title desc">
   <title id="title">Manish — AI/ML Engineer</title>
-  <desc id="desc">Midnight Aurora banner with flowing violet and lavender light.</desc>
+  <desc id="desc">Animated Midnight Aurora banner with drifting violet and lavender light.</desc>
   <defs>
     <linearGradient id="base" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#09090F"/>
-      <stop offset=".55" stop-color="#120B25"/>
-      <stop offset="1" stop-color="#211044"/>
+      <stop offset="0" stop-color="#09090F"/><stop offset=".55" stop-color="#120B25"/><stop offset="1" stop-color="#211044"/>
     </linearGradient>
     <linearGradient id="aurora1" x1="0" y1="1" x2="1" y2="0">
-      <stop offset="0" stop-color="#4C1D95" stop-opacity="0"/>
-      <stop offset=".38" stop-color="#7C3AED" stop-opacity=".48"/>
-      <stop offset=".72" stop-color="#C084FC" stop-opacity=".72"/>
-      <stop offset="1" stop-color="#6D28D9" stop-opacity="0"/>
+      <stop offset="0" stop-color="#4C1D95" stop-opacity="0"/><stop offset=".38" stop-color="#7C3AED" stop-opacity=".48"/><stop offset=".72" stop-color="#C084FC" stop-opacity=".72"/><stop offset="1" stop-color="#6D28D9" stop-opacity="0"/>
     </linearGradient>
     <linearGradient id="aurora2" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#6D28D9" stop-opacity="0"/>
-      <stop offset=".48" stop-color="#A78BFA" stop-opacity=".34"/>
-      <stop offset=".78" stop-color="#E9D5FF" stop-opacity=".56"/>
-      <stop offset="1" stop-color="#6D28D9" stop-opacity="0"/>
+      <stop offset="0" stop-color="#6D28D9" stop-opacity="0"/><stop offset=".48" stop-color="#A78BFA" stop-opacity=".34"/><stop offset=".78" stop-color="#E9D5FF" stop-opacity=".56"/><stop offset="1" stop-color="#6D28D9" stop-opacity="0"/>
     </linearGradient>
     <radialGradient id="glow">
-      <stop offset="0" stop-color="#8B5CF6" stop-opacity=".3"/>
-      <stop offset="1" stop-color="#8B5CF6" stop-opacity="0"/>
+      <stop offset="0" stop-color="#8B5CF6" stop-opacity=".34"/><stop offset="1" stop-color="#8B5CF6" stop-opacity="0"/>
     </radialGradient>
-    <filter id="blur" x="-30%" y="-80%" width="160%" height="260%">
-      <feGaussianBlur stdDeviation="22"/>
-    </filter>
-    <filter id="soft" x="-20%" y="-60%" width="140%" height="220%">
-      <feGaussianBlur stdDeviation="8"/>
-    </filter>
+    <filter id="blur" x="-30%" y="-80%" width="160%" height="260%"><feGaussianBlur stdDeviation="22"/></filter>
+    <filter id="soft" x="-20%" y="-60%" width="140%" height="220%"><feGaussianBlur stdDeviation="8"/></filter>
   </defs>
   <rect width="1200" height="280" fill="url(#base)"/>
-  <ellipse cx="840" cy="115" rx="410" ry="190" fill="url(#glow)"/>
-  <path d="M-80 230 C150 30 330 50 500 150 S850 270 1280 15 L1280 130 C930 330 720 250 500 190 S160 100 -80 280Z" fill="url(#aurora1)" filter="url(#blur)"/>
-  <path d="M-60 205 C170 55 300 75 500 145 S850 245 1260 45" fill="none" stroke="url(#aurora2)" stroke-width="38" opacity=".72" filter="url(#soft)"/>
-  <path d="M-40 238 C180 92 320 100 520 160 S880 245 1240 78" fill="none" stroke="#C084FC" stroke-opacity=".34" stroke-width="2"/>
-  <path d="M80 260 C300 135 390 125 590 175 S920 230 1170 105" fill="none" stroke="#A78BFA" stroke-opacity=".22" stroke-width="1.5"/>
-  <g fill="#E9D5FF" opacity=".75">
-    <circle cx="170" cy="58" r="1.5"/><circle cx="270" cy="104" r="1"/><circle cx="970" cy="52" r="1.4"/>
-    <circle cx="1080" cy="180" r="1.2"/><circle cx="850" cy="35" r="1"/><circle cx="650" cy="70" r="1.1"/>
-    <circle cx="105" cy="180" r="1"/><circle cx="1130" cy="92" r="1"/>
+  <ellipse cx="840" cy="115" rx="410" ry="190" fill="url(#glow)">
+    <animate attributeName="opacity" values=".55;.95;.55" dur="9s" repeatCount="indefinite"/>
+    <animate attributeName="rx" values="380;450;380" dur="13s" repeatCount="indefinite"/>
+  </ellipse>
+  <g>
+    <path d="M-80 230 C150 30 330 50 500 150 S850 270 1280 15 L1280 130 C930 330 720 250 500 190 S160 100 -80 280Z" fill="url(#aurora1)" filter="url(#blur)">
+      <animateTransform attributeName="transform" type="translate" values="-55 8;45 -7;-55 8" dur="24s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values=".68;1;.68" dur="12s" repeatCount="indefinite"/>
+    </path>
+    <path d="M-60 205 C170 55 300 75 500 145 S850 245 1260 45" fill="none" stroke="url(#aurora2)" stroke-width="38" opacity=".72" filter="url(#soft)">
+      <animateTransform attributeName="transform" type="translate" values="35 -5;-35 8;35 -5" dur="19s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values=".45;.9;.45" dur="10s" repeatCount="indefinite"/>
+    </path>
+    <path d="M-40 238 C180 92 320 100 520 160 S880 245 1240 78" fill="none" stroke="#C084FC" stroke-opacity=".34" stroke-width="2">
+      <animateTransform attributeName="transform" type="translate" values="-20 0;25 -4;-20 0" dur="21s" repeatCount="indefinite"/>
+    </path>
+    <path d="M80 260 C300 135 390 125 590 175 S920 230 1170 105" fill="none" stroke="#A78BFA" stroke-opacity=".22" stroke-width="1.5">
+      <animateTransform attributeName="transform" type="translate" values="22 2;-22 -3;22 2" dur="27s" repeatCount="indefinite"/>
+    </path>
+  </g>
+  <g fill="#E9D5FF">
+    <circle cx="170" cy="58" r="1.5"><animate attributeName="cy" values="58;42;58" dur="7s" repeatCount="indefinite"/><animate attributeName="opacity" values=".25;1;.25" dur="5s" repeatCount="indefinite"/></circle>
+    <circle cx="270" cy="104" r="1"><animate attributeName="cy" values="104;118;104" dur="8s" repeatCount="indefinite"/><animate attributeName="opacity" values=".2;.85;.2" dur="6s" repeatCount="indefinite"/></circle>
+    <circle cx="970" cy="52" r="1.4"><animate attributeName="cy" values="52;38;52" dur="9s" repeatCount="indefinite"/><animate attributeName="opacity" values=".3;1;.3" dur="6s" repeatCount="indefinite"/></circle>
+    <circle cx="1080" cy="180" r="1.2"><animate attributeName="cy" values="180;164;180" dur="8s" repeatCount="indefinite"/><animate attributeName="opacity" values=".2;.9;.2" dur="5s" repeatCount="indefinite"/></circle>
+    <circle cx="850" cy="35" r="1"><animate attributeName="cy" values="35;49;35" dur="7s" repeatCount="indefinite"/><animate attributeName="opacity" values=".2;.8;.2" dur="4s" repeatCount="indefinite"/></circle>
+    <circle cx="650" cy="70" r="1.1"><animate attributeName="cy" values="70;57;70" dur="10s" repeatCount="indefinite"/><animate attributeName="opacity" values=".25;1;.25" dur="6s" repeatCount="indefinite"/></circle>
+    <circle cx="105" cy="180" r="1"><animate attributeName="cy" values="180;166;180" dur="9s" repeatCount="indefinite"/></circle>
+    <circle cx="1130" cy="92" r="1"><animate attributeName="cy" values="92;105;92" dur="7s" repeatCount="indefinite"/></circle>
   </g>
   <text x="600" y="119" text-anchor="middle" fill="#FFFFFF" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="66" font-weight="750" letter-spacing="7">MANISH</text>
   <text x="600" y="158" text-anchor="middle" fill="#E9D5FF" font-family="JetBrains Mono,Consolas,monospace" font-size="17" letter-spacing="3">AI/ML ENGINEER  |  AGENTIC AI  |  MLOPS</text>
-  <path d="M520 184 H680" stroke="#C084FC" stroke-opacity=".7" stroke-width="2" stroke-linecap="round"/>
+  <path d="M520 184 H680" stroke="#C084FC" stroke-opacity=".7" stroke-width="2" stroke-linecap="round">
+    <animate attributeName="stroke-opacity" values=".25;.95;.25" dur="5s" repeatCount="indefinite"/>
+  </path>
 </svg>
