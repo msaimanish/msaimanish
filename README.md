@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:09090F,45:2E1065,100:6D28D9&height=220&section=header&text=MANISH&fontSize=72&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=AI%2FML%20ENGINEER%20%7C%20AGENTIC%20AI%20%7C%20MLOPS&descSize=18&descAlignY=58" width="100%" alt="Manish — AI/ML Engineer, Agentic AI, MLOps" />
+  <img src="https://raw.githubusercontent.com/msaimanish/msaimanish/main/aurora-header.svg" width="100%" alt="Manish — AI/ML Engineer, Agentic AI, MLOps" />
 </p>
 
 <h3 align="center">
