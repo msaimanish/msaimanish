@@ -90,6 +90,24 @@ An interactive Twitch raid experience that transforms channel handoffs into coll
 
 ---
 
+## Currently Building
+
+### 01 · ECHOES
+**Autonomous multi-agent village simulation with persistent memory and rumour propagation**
+
+A C++20 simulation engine where NPCs perceive events, form beliefs, remember, and influence each other through gossip, producing emergent social consequences that can be traced and replayed.
+
+- Designed a **perceive → remember → believe → decide → act** agent loop, combining **utility AI and GOAP planning** with **A\*** navigation.
+- Built a **deterministic fixed-step simulation** on an **ECS (EnTT)** with seeded randomness, an event journal, and replayable scenarios.
+- Implemented **belief and rumour propagation with provenance**, tracking source, transmission chain, and confidence, so information is never treated as verified fact.
+- Kept the engine authoritative: LLM and ML components only propose **typed actions**, which C++ validates before they change world state, and the game runs fully without them.
+- Added a **developer inspector** for decision traces, memory retrieval, and social graphs, and evaluated behavior against rule-based baselines across seeded scenarios.
+
+**Tech:** C++20 · EnTT · SFML 3 · SQLite · CMake · vcpkg · GoogleTest  
+**Repository:** [msaimanish/ECHOES](https://github.com/msaimanish/ECHOES)
+
+---
+
 ## Open Source
 
 - **Matplotlib:** Contributed a documentation fix to hide the version warning banner on the development documentation pages. [PR #32543](https://github.com/matplotlib/matplotlib/pull/32543) — merged.
