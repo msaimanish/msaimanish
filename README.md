@@ -1,20 +1,20 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0b1020,45:172554,100:0891b2&height=220&section=header&text=MANISH&fontSize=72&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=AI%2FML%20ENGINEER%20%7C%20AGENTIC%20AI%20%7C%20MLOPS&descSize=18&descAlignY=58" width="100%" alt="Manish — AI/ML Engineer, Agentic AI, MLOps" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:09090F,45:2E1065,100:6D28D9&height=220&section=header&text=MANISH&fontSize=72&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=AI%2FML%20ENGINEER%20%7C%20AGENTIC%20AI%20%7C%20MLOPS&descSize=18&descAlignY=58" width="100%" alt="Manish — AI/ML Engineer, Agentic AI, MLOps" />
 </p>
 
 <h3 align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=20&duration=2800&pause=900&color=22D3EE&center=true&vCenter=true&width=850&lines=Building+intelligent+systems;Designing+agentic+workflows;Exploring+NLP%2C+RAG+%26+computer+vision;Engineering+end-to-end+ML+applications" alt="Animated typing introduction" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=20&duration=2800&pause=900&color=C084FC&center=true&vCenter=true&width=850&lines=Building+intelligent+systems;Designing+agentic+workflows;Exploring+NLP%2C+RAG+%26+computer+vision;Engineering+end-to-end+ML+applications" alt="Animated typing introduction" />
 </h3>
 
 <p align="center">
-  <a href="https://msaimanish.tech"><img src="https://img.shields.io/badge/Portfolio-msaimanish.tech-0f172a?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" /></a>
-  <a href="https://github.com/msaimanish"><img src="https://img.shields.io/badge/GitHub-msaimanish-0f172a?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
-  <a href="https://linkedin.com/in/msaimanish"><img src="https://img.shields.io/badge/LinkedIn-Connect-0f172a?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  <a href="mailto:msaimanishreddy123@gmail.com"><img src="https://img.shields.io/badge/Email-Contact-0f172a?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+  <a href="https://msaimanish.tech"><img src="https://img.shields.io/badge/Portfolio-msaimanish.tech-1E1235?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" /></a>
+  <a href="https://github.com/msaimanish"><img src="https://img.shields.io/badge/GitHub-msaimanish-1E1235?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
+  <a href="https://linkedin.com/in/msaimanish"><img src="https://img.shields.io/badge/LinkedIn-Connect-1E1235?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="mailto:msaimanishreddy123@gmail.com"><img src="https://img.shields.io/badge/Email-Contact-1E1235?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
 </p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=msaimanish&style=flat-square&color=0891b2&label=PROFILE+VIEWS" alt="Profile views" />
+  <img src="https://komarev.com/ghpvc/?username=msaimanish&style=flat-square&color=6D28D9&label=PROFILE+VIEWS" alt="Profile views" />
 </p>
 
 ---
@@ -181,12 +181,12 @@ A computer-vision application that identifies and localizes weeds in crop images
 ## GitHub Activity
 
 <p align="center">
-  <img height="165" src="https://github-stats-extended.vercel.app/api?username=msaimanish&show_icons=true&include_all_commits=true&theme=tokyonight&hide_border=true&rank_icon=github" alt="Manish's GitHub statistics" />
-  <img height="165" src="https://github-stats-extended.vercel.app/api/top-langs/?username=msaimanish&layout=compact&langs_count=8&theme=tokyonight&hide_border=true" alt="Most used programming languages" />
+  <img height="165" src="https://github-stats-extended.vercel.app/api?username=msaimanish&show_icons=true&include_all_commits=true&bg_color=09090F&title_color=C084FC&text_color=E9D5FF&icon_color=6D28D9&hide_border=true&rank_icon=github" alt="Manish's GitHub statistics" />
+  <img height="165" src="https://github-stats-extended.vercel.app/api/top-langs/?username=msaimanish&layout=compact&langs_count=8&bg_color=09090F&title_color=C084FC&text_color=E9D5FF&hide_border=true" alt="Most used programming languages" />
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=msaimanish&theme=tokyonight&hide_border=true" alt="GitHub contribution streak" />
+  <img src="https://streak-stats.demolab.com?user=msaimanish&background=09090F&ring=6D28D9&fire=C084FC&currStreakLabel=C084FC&sideLabels=E9D5FF&dates=A78BFA&hide_border=true" alt="GitHub contribution streak" />
 </p>
 
 ### Contribution Activity
@@ -225,5 +225,5 @@ Relevant coursework: Data Structures, Design and Analysis of Algorithms, Operati
 </p>
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0b1020,50:172554,100:0891b2&height=120&section=footer" width="100%" alt="Decorative footer wave" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:09090F,50:2E1065,100:6D28D9&height=120&section=footer" width="100%" alt="Decorative footer wave" />
 </p>
